@@ -34,6 +34,7 @@ This file contains a function to generate Google Slides from a Google Sheet.
 </br>
 
 **find.email.gs**
+
 This file contains a function to find emails in Gmail.
 
 ```find_emails(keyword, numThreads, max_length)``` 
@@ -42,7 +43,24 @@ This file contains a function to find emails in Gmail.
 - It returns the content of the found emails as a string, truncated if it exceeds the max_length
 
 **sidebar.gs**
+
 This file contains a function to update the sidebar in a Google Sheet.
 
 ```UpdateSideBar(msg)```
+
 - Displays a sidebar in the spreadsheet with the provided message
+
+**uniqueSet.gs**
+
+This file contains a function to create a unique Set from an array
+
+```getSet(sourceData)``` 
+
+- Taking sourceData as an input and loop through the array to construct a unique set
+
+**joinTables.gs**
+This file contains a function to left join two tables
+
+```joinSheetData(spreadsheet, sourceConfig, targetConfig)```
+
+- Left joining a source table to a target table.
